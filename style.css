@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background: radial-gradient(#fff,#ffd6d6); 
+   height: 100vh;
+}
+
+h1{
+    color:#555;
+    text-align: center;
+    font-family:  Arial;
+    font-size: 45px;
+}
+.body{
+    max-width: 1300px;
+    margin: auto;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    padding: 8px 25px;
+}
+ table{
+    width: 100%;
+} 
+tr{
+    padding: 0 19px;
+    text-align: left;
+    transition: all 1.5s ease;
+}
+th{
+    font-weight: bold;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+.edit{
+    background: blue;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.del{
+    background: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+td{
+    line-height: 45px;
+    border: none;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 600;
+}
+tr:hover{
+    background: underline;
+}
+
+/* create page */
+.inputs{
+    left: 50%;
+    top: -7%;
+    transform: translate(-50%,50%);
+    position: absolute;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    padding: 10px;
+    border-radius:8px ;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+}
+.content{
+    background: radial-gradient(#fff,#ffd6d6);
+    height: 100vh;
+}
+input{
+    width: 97%;
+    height: 45px;
+    border-radius: 6px;
+    padding-left: 2%;
+    font-size: 18px;
+}
+.btn{
+    background: blue;
+    color: #fff;
+    width: 45%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.heading h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0;
+    color: #555;
+    background: #fff;
+}
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 96%;
+    height: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+ .success{
+    background: #bce4c6;
+    color: #49af49;
+    padding: 10px;
+    width: 96%;
+    height: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
